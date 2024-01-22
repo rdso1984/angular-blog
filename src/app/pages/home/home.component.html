@@ -5,12 +5,31 @@
 <app-menu-title></app-menu-title>
 <div class="container_articles">
   <div class="articles_main">
-    <app-big-card></app-big-card>
+    <app-big-card 
+      photoCover="https://res.cloudinary.com/nerd-club/image/upload/c_thumb,dpr_2.0,f_auto,h_1000,q_auto:good,w_1400/avengers-poster.jpg"
+      cardTitle="NOVO FILME ANUNCIADO"
+      cardDescription="Marvel anuncia novo filme a ser lançado em breve para alegria dos fãs."
+    >
+    </app-big-card>
   </div>
 
   <div class="articles_others">
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
+    <app-small-card 
+      photoCover="https://res.cloudinary.com/nerd-club/image/upload/c_thumb,dpr_2.0,f_auto,h_1000,q_auto:good,w_1400/avengers-poster.jpg"
+      cardDescription="Saiu em strimming filme da Marvel."
+    >
+    </app-small-card>
+
+    <app-small-card
+    photoCover="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/AD72115B9CDAE873B2234BD0908CEF7B45A2D9AD9C66C699239B46E582F70A8B/scale?width=1200&aspectRatio=1.78&format=jpeg"
+    cardDescription="Produção do filme já está bastante adiantada."
+    >
+    </app-small-card>
+
+    <app-small-card
+    photoCover="https://i.ibb.co/9c0hMdj/Sem-t-tulo-1.jpg"
+    cardDescription="Bilheteria não foi conforme esperado."
+    >
+    </app-small-card>
   </div>
 </div>
