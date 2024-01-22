@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-content',
@@ -12,5 +13,10 @@ export class ContentComponent {
   contentTitle:string = 'MINHA NOTICIA'
   contentDescription:string = 'Ola mundo'
 
-  constructor() {}
+  constructor(private route:ActivatedRoute) {}
+
+  ngOnInit(): void {
+    this.route.paramMap.subscribe( value =>
+      console.log(value.get("Id")))
+  }
 }
