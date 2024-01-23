@@ -1,14 +1,14 @@
 export const dataFake = [
   {
-    "id":1,
-    "photo":"aaa",
+    "id":"1",
     "title":"saiu novo filme",
-    "description": "ola mundo"
+    "description": "ola mundo",
+    "photocover": ""
   },
   {
-    "id":2,
-    "photo":"aaa",
+    "id":"2",
     "title":"filme velho saindo",
-    "description": "ola mundo"
+    "description": "ola mundo",
+    "photocover": ""
   }
 ]
